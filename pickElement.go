@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-func getSmallest(){
-
+func getSmallest(input []int) int {
+ 
 }
 
 
