@@ -1,5 +1,6 @@
 package main 
 
+import "fmt"
 
 func getSmallest(input []int) int {
     
@@ -26,6 +27,13 @@ func getLargest(input []int) int {
     }
     
     return largest;
+}
+
+func main(){
+    input := []int{1,2,3,-5,2}
+
+    fmt.Println(getSmallest(input))
+    fmt.Println(getLargest(input))
 }
 
 
