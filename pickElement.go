@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func getSmallest() int {
+func getSmallest(input []int) int {
 
     return -1;
 }
