@@ -1,6 +1,5 @@
-package main
+package main 
 
-import "fmt"
 
 func getSmallest(input []int) int {
     
@@ -30,6 +29,4 @@ func getLargest(input []int) int {
 }
 
 
-func main(){
-    
-}
+
